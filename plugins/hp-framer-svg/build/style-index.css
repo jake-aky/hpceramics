@@ -25,4 +25,24 @@
   color: #ddd;
 }
 
+#hp-framer-svg {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.hp--framer--svg {
+  height: 50vh;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.hp--framer--svg__svg {
+  width: 75px;
+}
+
 /*# sourceMappingURL=style-index.css.map*/

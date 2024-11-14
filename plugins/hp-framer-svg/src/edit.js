@@ -25,12 +25,12 @@ import { useBlockProps } from '@wordpress/block-editor';
  *
  * @return {Element} Element to render.
  */
-export default function Edit( { attributes, setAttributes } ) {
-	const blockProps = useBlockProps();
+export default function Edit({ attributes, setAttributes }) {
+  const blockProps = useBlockProps();
 
-	return (
-		<p { ...blockProps }>
-			{ __( 'HP Framer SVG – hello from the editor!', 'hp-framer-svg' ) }
-		</p>
-	);
+  return (
+    <p {...blockProps}>
+      {__('This is the SVG Animation, it does not display within the editor. :)', 'hp-framer-svg')}
+    </p>
+  );
 }

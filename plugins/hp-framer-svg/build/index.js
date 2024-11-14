@@ -53,7 +53,7 @@ function Edit({
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
     ...blockProps,
-    children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('HP Framer SVG – hello from the editor!', 'hp-framer-svg')
+    children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('This is the SVG Animation, it does not display within the editor. :)', 'hp-framer-svg')
   });
 }
 
@@ -180,7 +180,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"hp-framer-svg/hp-framer-svg","version":"0.1.0","title":"HP Framer SVG","category":"embed","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"hp-framer-svg","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"hp-framer-svg/hp-framer-svg","version":"0.1.0","title":"HP Framer SVG","category":"embed","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"hp-framer-svg","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ })
 
