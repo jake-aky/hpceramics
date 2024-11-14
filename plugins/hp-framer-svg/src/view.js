@@ -13,7 +13,7 @@ if (document.getElementById('hp-framer-svg') !== null) {
 const App = () => {
   return (
     <div className="hp--framer--svg">
-      <div>
+      <div className="hp--framer--svg__svg--container">
         <motion.svg
           className="hp--framer--svg__svg"
           id="Layer_1"
@@ -24,11 +24,11 @@ const App = () => {
             initial={{ pathLength: 0 }}
             animate={{ pathLength: 1, strokeLinecap: 'round' }}
             transition={{
-              duration: 2,
+              duration: 1.5,
               ease: 'easeOut',
               delay: 0.5,
             }}
-            strokeWidth={5}
+            strokeWidth={4}
             strokeDasharray="0 1"
             stroke="#000"
             // strokeLinecap="round"
@@ -38,9 +38,9 @@ const App = () => {
           />
         </motion.svg>
       </div>
-      <div>
-        <h1>helen pickard</h1>
-        <h3>ceramics</h3>
+      <div className="hp--framer--svg__text--container">
+        <h1 className="hp--framer--svg__title">helen pickard</h1>
+        <h3 className="hp--framer--svg__subtitle">ceramics</h3>
       </div>
     </div>
   );

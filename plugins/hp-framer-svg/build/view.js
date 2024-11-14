@@ -14791,6 +14791,7 @@ const App = () => {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
     className: "hp--framer--svg",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "hp--framer--svg__svg--container",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_3__.motion.svg, {
         className: "hp--framer--svg__svg",
         id: "Layer_1",
@@ -14805,11 +14806,11 @@ const App = () => {
             strokeLinecap: 'round'
           },
           transition: {
-            duration: 2,
+            duration: 1.5,
             ease: 'easeOut',
             delay: 0.5
           },
-          strokeWidth: 5,
+          strokeWidth: 4,
           strokeDasharray: "0 1",
           stroke: "#000"
           // strokeLinecap="round"
@@ -14820,9 +14821,12 @@ const App = () => {
         })
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "hp--framer--svg__text--container",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
+        className: "hp--framer--svg__title",
         children: "helen pickard"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h3", {
+        className: "hp--framer--svg__subtitle",
         children: "ceramics"
       })]
     })]

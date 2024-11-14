@@ -33,14 +33,44 @@
 }
 
 .hp--framer--svg{
-	height: 50vh;
-	min-height: 550px;
+	height: 25vh;
+	min-height: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid blue;
+	border: 1px solid blue;
+}
+
+
+.hp--framer--svg__svg--container{
 }
 .hp--framer--svg__svg{
 	width: 75px;
+}
+
+.hp--framer--svg__text--container{
+}
+.hp--framer--svg__title{
+	margin: 0;
+	text-align: center;
+	animation: forwards displayText 0.5s ease-out;
+	animation-delay: 2s;
+	opacity: 0;
+}
+.hp--framer--svg__subtitle{
+	margin: 0;
+	text-align: center;
+	animation: forwards displayText 0.5s ease-out;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+@keyframes displayText {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
