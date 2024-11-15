@@ -38,7 +38,9 @@ import cup29 from './cup-images/cup29.png';
 
 let domNode = document.getElementById('hp-framer-svg');
 let root = createRoot(domNode);
-const App = () => {
+
+// LandingPage
+const LandingPage = () => {
   const paperContainer = useRef(null);
   const { scrollYProgress: scrollYProgressTarget } = useScroll({
     target: paperContainer,
@@ -61,7 +63,7 @@ const App = () => {
   const windowHeight = window.innerHeight;
 
   // Paper Scroll Animation Values
-  let paperScroll = useTransform(scrollYProgressTarget, [0, 1], [0, 2 * windowHeight]);
+  let paperScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
 
   return (
     <>
@@ -80,37 +82,6 @@ const App = () => {
       <div className="viewport__placeholder--100vh"></div>
       <div className="viewport__placeholder--100vh"></div>
     </>
-    // <div className="hp--framer--svg">
-    //   <div className="hp--framer--svg__svg--container">
-    //     <motion.svg
-    //       className="hp--framer--svg__svg"
-    //       id="Layer_1"
-    //       xmlns="http://www.w3.org/2000/svg"
-    //       viewBox="0 0 86.88 90.12"
-    //     >
-    //       <motion.path
-    //         initial={{ pathLength: 0 }}
-    //         animate={{ pathLength: 1, strokeLinecap: 'round' }}
-    //         transition={{
-    //           duration: 1.5,
-    //           ease: 'easeOut',
-    //           delay: 0.5,
-    //         }}
-    //         strokeWidth={4}
-    //         strokeDasharray="0 1"
-    //         stroke="#000"
-    //         // strokeLinecap="round"
-    //         strokeMiterlimit={10}
-    //         fill="none"
-    //         d="M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
-    //       />
-    //     </motion.svg>
-    //   </div>
-    //   <div className="hp--framer--svg__text--container">
-    //     <h1 className="hp--framer--svg__title">helen pickard</h1>
-    //     <h3 className="hp--framer--svg__subtitle">ceramics</h3>
-    //   </div>
-    // </div>
   );
 };
 
@@ -130,8 +101,50 @@ const CupImage = ({ i, scrollYProgressTarget, handleCurrentImage, currentImage }
   );
 };
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  console.log('DOM fully loaded and parsed');
-});
+const LandingPageModal = () => {
+  return (
+    <div className="hp--framer--svg">
+      <div className="hp--framer--svg__svg--container">
+        <motion.svg
+          className="hp--framer--svg__svg"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 86.88 90.12"
+        >
+          <motion.path
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1, strokeLinecap: 'round' }}
+            transition={{
+              duration: 1.5,
+              ease: 'easeOut',
+              delay: 0.5,
+            }}
+            strokeWidth={4}
+            strokeDasharray="0 1"
+            stroke="#000"
+            // strokeLinecap="round"
+            strokeMiterlimit={10}
+            fill="none"
+            d="M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
+          />
+        </motion.svg>
+      </div>
+      <div className="hp--framer--svg__text--container">
+        <h1 className="hp--framer--svg__title">helen pickard</h1>
+        <h3 className="hp--framer--svg__subtitle">ceramics</h3>
+      </div>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <>
+      <LandingPage />
+      <LandingPageModal />
+    </>
+  );
+};
+
 // Only render if DOM
 root.render(<App />);

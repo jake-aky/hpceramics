@@ -40,7 +40,7 @@ if (false) {} else {
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup1.a4321533.png";
+module.exports = __webpack_require__.p + "images/cup1.1dbcb357.png";
 
 /***/ }),
 
@@ -50,7 +50,7 @@ module.exports = __webpack_require__.p + "images/cup1.a4321533.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup10.f60e988d.png";
+module.exports = __webpack_require__.p + "images/cup10.88b22549.png";
 
 /***/ }),
 
@@ -60,7 +60,7 @@ module.exports = __webpack_require__.p + "images/cup10.f60e988d.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup11.b9bfc220.png";
+module.exports = __webpack_require__.p + "images/cup11.bec24504.png";
 
 /***/ }),
 
@@ -70,7 +70,7 @@ module.exports = __webpack_require__.p + "images/cup11.b9bfc220.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup12.0e18655f.png";
+module.exports = __webpack_require__.p + "images/cup12.a38ae650.png";
 
 /***/ }),
 
@@ -80,7 +80,7 @@ module.exports = __webpack_require__.p + "images/cup12.0e18655f.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup13.31b36688.png";
+module.exports = __webpack_require__.p + "images/cup13.8d818dac.png";
 
 /***/ }),
 
@@ -90,7 +90,7 @@ module.exports = __webpack_require__.p + "images/cup13.31b36688.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup14.9d4ed741.png";
+module.exports = __webpack_require__.p + "images/cup14.928097b5.png";
 
 /***/ }),
 
@@ -100,7 +100,7 @@ module.exports = __webpack_require__.p + "images/cup14.9d4ed741.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup15.26a2a498.png";
+module.exports = __webpack_require__.p + "images/cup15.14bc3213.png";
 
 /***/ }),
 
@@ -110,7 +110,7 @@ module.exports = __webpack_require__.p + "images/cup15.26a2a498.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup16.a5903158.png";
+module.exports = __webpack_require__.p + "images/cup16.d8b73967.png";
 
 /***/ }),
 
@@ -120,7 +120,7 @@ module.exports = __webpack_require__.p + "images/cup16.a5903158.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup17.ee8052f3.png";
+module.exports = __webpack_require__.p + "images/cup17.6aa4e1cc.png";
 
 /***/ }),
 
@@ -130,7 +130,7 @@ module.exports = __webpack_require__.p + "images/cup17.ee8052f3.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup18.e6e97a02.png";
+module.exports = __webpack_require__.p + "images/cup18.62ff6cb3.png";
 
 /***/ }),
 
@@ -140,7 +140,7 @@ module.exports = __webpack_require__.p + "images/cup18.e6e97a02.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup19.345606f4.png";
+module.exports = __webpack_require__.p + "images/cup19.e959b390.png";
 
 /***/ }),
 
@@ -150,7 +150,7 @@ module.exports = __webpack_require__.p + "images/cup19.345606f4.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup2.b0fc4331.png";
+module.exports = __webpack_require__.p + "images/cup2.dd1de366.png";
 
 /***/ }),
 
@@ -160,7 +160,7 @@ module.exports = __webpack_require__.p + "images/cup2.b0fc4331.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup20.3e6e8695.png";
+module.exports = __webpack_require__.p + "images/cup20.45d75c31.png";
 
 /***/ }),
 
@@ -170,7 +170,7 @@ module.exports = __webpack_require__.p + "images/cup20.3e6e8695.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup21.34d836f3.png";
+module.exports = __webpack_require__.p + "images/cup21.cbbc8d3b.png";
 
 /***/ }),
 
@@ -180,7 +180,7 @@ module.exports = __webpack_require__.p + "images/cup21.34d836f3.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup22.9de860ec.png";
+module.exports = __webpack_require__.p + "images/cup22.c9e03f25.png";
 
 /***/ }),
 
@@ -190,7 +190,7 @@ module.exports = __webpack_require__.p + "images/cup22.9de860ec.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup23.9fa352ba.png";
+module.exports = __webpack_require__.p + "images/cup23.6264a9fa.png";
 
 /***/ }),
 
@@ -200,7 +200,7 @@ module.exports = __webpack_require__.p + "images/cup23.9fa352ba.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup24.c8e8561e.png";
+module.exports = __webpack_require__.p + "images/cup24.d68612ae.png";
 
 /***/ }),
 
@@ -210,7 +210,7 @@ module.exports = __webpack_require__.p + "images/cup24.c8e8561e.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup25.ee2ec857.png";
+module.exports = __webpack_require__.p + "images/cup25.a1a7e899.png";
 
 /***/ }),
 
@@ -220,7 +220,7 @@ module.exports = __webpack_require__.p + "images/cup25.ee2ec857.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup26.92466a09.png";
+module.exports = __webpack_require__.p + "images/cup26.b042b90b.png";
 
 /***/ }),
 
@@ -230,7 +230,7 @@ module.exports = __webpack_require__.p + "images/cup26.92466a09.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup27.9a6300cd.png";
+module.exports = __webpack_require__.p + "images/cup27.8cf3848b.png";
 
 /***/ }),
 
@@ -240,7 +240,7 @@ module.exports = __webpack_require__.p + "images/cup27.9a6300cd.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup28.6ebec7a2.png";
+module.exports = __webpack_require__.p + "images/cup28.4173647e.png";
 
 /***/ }),
 
@@ -250,7 +250,7 @@ module.exports = __webpack_require__.p + "images/cup28.6ebec7a2.png";
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup29.ec05abb0.png";
+module.exports = __webpack_require__.p + "images/cup29.e201cd97.png";
 
 /***/ }),
 
@@ -260,7 +260,7 @@ module.exports = __webpack_require__.p + "images/cup29.ec05abb0.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup3.58e5a1d3.png";
+module.exports = __webpack_require__.p + "images/cup3.1bea72a9.png";
 
 /***/ }),
 
@@ -270,7 +270,7 @@ module.exports = __webpack_require__.p + "images/cup3.58e5a1d3.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup4.2bc33857.png";
+module.exports = __webpack_require__.p + "images/cup4.18decf2c.png";
 
 /***/ }),
 
@@ -280,7 +280,7 @@ module.exports = __webpack_require__.p + "images/cup4.2bc33857.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup5.f3920482.png";
+module.exports = __webpack_require__.p + "images/cup5.341fbaee.png";
 
 /***/ }),
 
@@ -290,7 +290,7 @@ module.exports = __webpack_require__.p + "images/cup5.f3920482.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup6.7964d258.png";
+module.exports = __webpack_require__.p + "images/cup6.416f8bb7.png";
 
 /***/ }),
 
@@ -300,7 +300,7 @@ module.exports = __webpack_require__.p + "images/cup6.7964d258.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup7.20ab5eb9.png";
+module.exports = __webpack_require__.p + "images/cup7.7f55d491.png";
 
 /***/ }),
 
@@ -310,7 +310,7 @@ module.exports = __webpack_require__.p + "images/cup7.20ab5eb9.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup8.9527955e.png";
+module.exports = __webpack_require__.p + "images/cup8.d00b92a4.png";
 
 /***/ }),
 
@@ -320,7 +320,7 @@ module.exports = __webpack_require__.p + "images/cup8.9527955e.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/cup9.72fa97af.png";
+module.exports = __webpack_require__.p + "images/cup9.55fc6081.png";
 
 /***/ }),
 
@@ -16335,7 +16335,9 @@ __webpack_require__.r(__webpack_exports__);
 
 let domNode = document.getElementById('hp-framer-svg');
 let root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(domNode);
-const App = () => {
+
+// LandingPage
+const LandingPage = () => {
   const paperContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const {
     scrollYProgress: scrollYProgressTarget
@@ -16358,7 +16360,7 @@ const App = () => {
   const windowHeight = window.innerHeight;
 
   // Paper Scroll Animation Values
-  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_34__.useTransform)(scrollYProgressTarget, [0, 1], [0, 2 * windowHeight]);
+  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_34__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
       ref: paperContainer,
@@ -16380,39 +16382,7 @@ const App = () => {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
       className: "viewport__placeholder--100vh"
     })]
-  })
-  // <div className="hp--framer--svg">
-  //   <div className="hp--framer--svg__svg--container">
-  //     <motion.svg
-  //       className="hp--framer--svg__svg"
-  //       id="Layer_1"
-  //       xmlns="http://www.w3.org/2000/svg"
-  //       viewBox="0 0 86.88 90.12"
-  //     >
-  //       <motion.path
-  //         initial={{ pathLength: 0 }}
-  //         animate={{ pathLength: 1, strokeLinecap: 'round' }}
-  //         transition={{
-  //           duration: 1.5,
-  //           ease: 'easeOut',
-  //           delay: 0.5,
-  //         }}
-  //         strokeWidth={4}
-  //         strokeDasharray="0 1"
-  //         stroke="#000"
-  //         // strokeLinecap="round"
-  //         strokeMiterlimit={10}
-  //         fill="none"
-  //         d="M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
-  //       />
-  //     </motion.svg>
-  //   </div>
-  //   <div className="hp--framer--svg__text--container">
-  //     <h1 className="hp--framer--svg__title">helen pickard</h1>
-  //     <h3 className="hp--framer--svg__subtitle">ceramics</h3>
-  //   </div>
-  // </div>
-  ;
+  });
 };
 const CupImage = ({
   i,
@@ -16432,9 +16402,57 @@ const CupImage = ({
     src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
   });
 };
-document.addEventListener('DOMContentLoaded', event => {
-  console.log('DOM fully loaded and parsed');
-});
+const LandingPageModal = () => {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)("div", {
+    className: "hp--framer--svg",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
+      className: "hp--framer--svg__svg--container",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_35__.motion.svg, {
+        className: "hp--framer--svg__svg",
+        id: "Layer_1",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 86.88 90.12",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_35__.motion.path, {
+          initial: {
+            pathLength: 0
+          },
+          animate: {
+            pathLength: 1,
+            strokeLinecap: 'round'
+          },
+          transition: {
+            duration: 1.5,
+            ease: 'easeOut',
+            delay: 0.5
+          },
+          strokeWidth: 4,
+          strokeDasharray: "0 1",
+          stroke: "#000"
+          // strokeLinecap="round"
+          ,
+          strokeMiterlimit: 10,
+          fill: "none",
+          d: "M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)("div", {
+      className: "hp--framer--svg__text--container",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("h1", {
+        className: "hp--framer--svg__title",
+        children: "helen pickard"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("h3", {
+        className: "hp--framer--svg__subtitle",
+        children: "ceramics"
+      })]
+    })]
+  });
+};
+const App = () => {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(LandingPage, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(LandingPageModal, {})]
+  });
+};
+
 // Only render if DOM
 root.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(App, {}));
 })();
