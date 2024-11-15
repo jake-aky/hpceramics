@@ -16341,13 +16341,13 @@ const App = () => {
     scrollYProgress: scrollYProgressTarget
   } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_33__.useScroll)({
     target: paperContainer,
-    offset: ['start end', 'end start']
+    offset: ['start start', 'end end']
   });
   const [currentImage, setCurrentImage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(1);
   const handleCurrentImage = i => {
     // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-    const currentFrame = i * (0.5 / 29) + 0.5;
-    if (currentFrame <= 0.5) {
+    const currentFrame = i * (1 / 29);
+    if (currentFrame <= 0) {
       setCurrentImage(1);
     } else if (currentFrame >= 1) {
       setCurrentImage(29);
@@ -16358,7 +16358,7 @@ const App = () => {
   const windowHeight = window.innerHeight;
 
   // Paper Scroll Animation Values
-  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_34__.useTransform)(scrollYProgressTarget, [0.5, 1], [0, windowHeight]);
+  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_34__.useTransform)(scrollYProgressTarget, [0, 1], [0, 2 * windowHeight]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
       ref: paperContainer,
@@ -16421,7 +16421,7 @@ const CupImage = ({
   currentImage
 }) => {
   // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-  const frameSlot = i * (0.5 / 29) + 0.5;
+  const frameSlot = i * (1 / 29);
   const x = (0,framer_motion__WEBPACK_IMPORTED_MODULE_36__.useMotionValueEvent)(scrollYProgressTarget, 'change', latest => {
     if (frameSlot <= latest) {
       handleCurrentImage(i);

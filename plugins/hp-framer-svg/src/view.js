@@ -42,14 +42,14 @@ const App = () => {
   const paperContainer = useRef(null);
   const { scrollYProgress: scrollYProgressTarget } = useScroll({
     target: paperContainer,
-    offset: ['start end', 'end start'],
+    offset: ['start start', 'end end'],
   });
 
   const [currentImage, setCurrentImage] = useState(1);
   const handleCurrentImage = (i) => {
     // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-    const currentFrame = i * (0.5 / 29) + 0.5;
-    if (currentFrame <= 0.5) {
+    const currentFrame = i * (1 / 29);
+    if (currentFrame <= 0) {
       setCurrentImage(1);
     } else if (currentFrame >= 1) {
       setCurrentImage(29);
@@ -61,7 +61,7 @@ const App = () => {
   const windowHeight = window.innerHeight;
 
   // Paper Scroll Animation Values
-  let paperScroll = useTransform(scrollYProgressTarget, [0.5, 1], [0, windowHeight]);
+  let paperScroll = useTransform(scrollYProgressTarget, [0, 1], [0, 2 * windowHeight]);
 
   return (
     <>
@@ -116,7 +116,7 @@ const App = () => {
 
 const CupImage = ({ i, scrollYProgressTarget, handleCurrentImage, currentImage }) => {
   // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-  const frameSlot = i * (0.5 / 29) + 0.5;
+  const frameSlot = i * (1 / 29);
   const x = useMotionValueEvent(scrollYProgressTarget, 'change', (latest) => {
     if (frameSlot <= latest) {
       handleCurrentImage(i);

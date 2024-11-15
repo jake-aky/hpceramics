@@ -41,7 +41,7 @@ html{
 }
 
 .paper{
-  height: 200vh;
+  height: 300vh;
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -49,13 +49,13 @@ html{
 	border: 1px solid red;
 }
 .paper__img--container{
-	height: 100vh;
   z-index: 2;
+	height: 90vh;
   width: 450px;
   position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	border: 1px solid purple;
 }
 .paper__img{
