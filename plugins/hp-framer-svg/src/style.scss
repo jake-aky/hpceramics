@@ -4,7 +4,9 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-
+html{
+	scroll-behavior: smooth;
+}
 .wp-block-hp-framer-svg-hp-framer-svg {
 	font-size: 1em;
 	background: #ffff001a;
@@ -31,6 +33,39 @@
 	margin: 0;
 	padding: 0;
 }
+
+
+.viewport__placeholder--100vh{
+  height: 100vh;
+	border: 1px solid blue;
+}
+
+.paper{
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+	border: 1px solid red;
+}
+.paper__img--container{
+	height: 100vh;
+  z-index: 2;
+  width: 450px;
+  position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid purple;
+}
+.paper__img{
+	display: none;
+}
+.paper__img.active{
+	display: block;
+	height: 40vh;
+}
+
 
 .hp--framer--svg{
 	height: 25vh;
