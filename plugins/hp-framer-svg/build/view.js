@@ -15998,9 +15998,9 @@ const LandingPage = () => {
         style: {
           y: scrollCupScroll
         },
-        children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(CupImage, {
-          i: i,
-          currentImage: currentImage
+        children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+          className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
+          src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
         }))
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -16008,15 +16008,6 @@ const LandingPage = () => {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "viewport__placeholder--100vh"
     })]
-  });
-};
-const CupImage = ({
-  i,
-  currentImage
-}) => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-    className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
-    src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
   });
 };
 const LandingPageModal = () => {

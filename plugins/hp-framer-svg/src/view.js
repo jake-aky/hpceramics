@@ -48,22 +48,16 @@ const LandingPage = () => {
         <h1>ceramics</h1>
         <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
           {[...Array(29)].map((e, i) => (
-            <CupImage i={i} currentImage={currentImage} />
+            <img
+              className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
+              src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
+            />
           ))}
         </motion.div>
       </div>
       <div className="viewport__placeholder--100vh"></div>
       <div className="viewport__placeholder--100vh"></div>
     </>
-  );
-};
-
-const CupImage = ({ i, currentImage }) => {
-  return (
-    <img
-      className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
-      src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
-    />
   );
 };
 
