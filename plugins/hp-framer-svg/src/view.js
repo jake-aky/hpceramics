@@ -25,8 +25,8 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
-  let titleScroll = useTransform(scrollYProgressTarget, [0, 0.1, 1], [0, 0, windowHeight / 2.5]);
-  let subTitleScroll = useTransform(scrollYProgressTarget, [0, 0.2, 1], [0, 0, windowHeight / 2.5]);
+  let titleScroll = useTransform(scrollYProgressTarget, [0, 0.1, 0.3], [0, 0, 200]);
+  let headingScroll = useTransform(scrollYProgressTarget, [0.6, 0.9], [200, 0]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -47,54 +47,64 @@ const LandingPage = () => {
     <>
       <div ref={scrollCupContainer} className="scroll--cup">
         <div className="scroll--cup__landing--section">
-          <div className="scroll--cup__landing--text--container">
-            <motion.h1
-              style={{ y: scrollCupScroll }}
-              className="scroll--cup__landing--text--container__title"
-            >
-              helen pickard
-              <motion.span
-                style={{ y: titleScroll }}
-                className="scroll--cup__landing--text--container__title--span"
-              >
-                helen pickard
-              </motion.span>
-            </motion.h1>
-            <motion.h1
-              style={{ y: scrollCupScroll }}
-              className="scroll--cup__landing--text--container__title"
-            >
-              ceramics
-              <motion.span
-                style={{ y: subTitleScroll }}
-                className="scroll--cup__landing--text--container__title--span"
-              >
+          {/* MIDDLE TEXT */}
+          <div className="scroll--cup__text--container middle">
+            <div className="scroll--cup__middle--text title">
+              <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
+                helen
+                <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
+                  helen
+                </motion.span>
+              </motion.h1>
+              <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
+                pickard
+                <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
+                  pickard
+                </motion.span>
+              </motion.h1>
+            </div>
+            <div className="scroll--cup__middle--text">
+              <motion.h3 style={{ y: scrollCupScroll }} className="scroll--cup__text subtitle">
                 ceramics
-              </motion.span>
-            </motion.h1>
+                <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
+                  ceramics
+                </motion.span>
+              </motion.h3>
+            </div>
           </div>
-          <div className="scroll--cup__landing--img--container">
-            <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
-              {[...Array(29)].map((e, i) => (
-                <img
-                  className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
-                  src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
-                />
-              ))}
-            </motion.div>
-          </div>
+          {/* CUP IMAGE */}
+          <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
+            {[...Array(29)].map((e, i) => (
+              <img
+                className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
+                src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
+              />
+            ))}
+          </motion.div>
         </div>
         <div className="scroll--cup__product--section">
-          <div>
-            <h1>Handmade in the UK</h1>
-          </div>
-          <div>
-            <span>%100 Sustainable</span>
-            <span>Locally Sourced materials</span>
+          <div className="scroll--cup__content--container">
+            <motion.h2 className="scroll--cup__text heading">
+              Handmade in North East England.
+              <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
+                Handmade in North East England.
+              </motion.span>
+            </motion.h2>
+            <div className="scroll--cup__subheading--container">
+              <motion.h3 style={{ y: headingScroll }} className="scroll--cup__text subheading">
+                100% Sustainable
+                <motion.span className="scroll--cup__span reversed">100% Sustainable</motion.span>
+              </motion.h3>
+              <motion.h3 style={{ y: headingScroll }} className="scroll--cup__text subheading">
+                Locally sourced materials
+                <motion.span className="scroll--cup__span reversed">
+                  Locally sourced materials
+                </motion.span>
+              </motion.h3>
+            </div>
           </div>
         </div>
       </div>
-      <div className="viewport__placeholder--100vh"></div>
       <div className="viewport__placeholder--100vh"></div>
     </>
   );
