@@ -15971,6 +15971,8 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
+  let titleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 1], [0, 0, windowHeight / 2.5]);
+  let subTitleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.2, 1], [0, 0, windowHeight / 2.5]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -15989,19 +15991,61 @@ const LandingPage = () => {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       ref: scrollCupContainer,
       className: "scroll--cup",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-        children: "helen pickard"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-        children: "ceramics"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
-        className: "scroll--cup__img--container",
-        style: {
-          y: scrollCupScroll
-        },
-        children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-          className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
-          src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
-        }))
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "scroll--cup__landing--section",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "scroll--cup__landing--text--container",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h1, {
+            style: {
+              y: scrollCupScroll
+            },
+            className: "scroll--cup__landing--text--container__title",
+            children: ["helen pickard", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
+              style: {
+                y: titleScroll
+              },
+              className: "scroll--cup__landing--text--container__title--span",
+              children: "helen pickard"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h1, {
+            style: {
+              y: scrollCupScroll
+            },
+            className: "scroll--cup__landing--text--container__title",
+            children: ["ceramics", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
+              style: {
+                y: subTitleScroll
+              },
+              className: "scroll--cup__landing--text--container__title--span",
+              children: "ceramics"
+            })]
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "scroll--cup__landing--img--container",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
+            className: "scroll--cup__img--container",
+            style: {
+              y: scrollCupScroll
+            },
+            children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+              className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
+              src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
+            }))
+          })
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "scroll--cup__product--section",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+            children: "Handmade in the UK"
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+            children: "%100 Sustainable"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+            children: "Locally Sourced materials"
+          })]
+        })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "viewport__placeholder--100vh"

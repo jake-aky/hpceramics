@@ -48,21 +48,67 @@ html {
 .scroll--cup {
   height: 200vh;
   width: 100%;
+}
+
+.scroll--cup__landing--section {
+  height: 100vh;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
+  align-items: center;
+}
+
+.scroll--cup__landing--text--container {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll--cup__landing--text--container__title {
+  margin: 0;
+  font-size: clamp(100px, 10vw, 275px);
+  color: transparent;
+  position: relative;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+.scroll--cup__landing--text--container__title--span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-wrap: nowrap;
+}
+
+.scroll--cup__landing--img--container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll--cup__product--section {
+  height: 100vh;
+  background-color: black;
 }
 
 .scroll--cup__img--container {
   z-index: 2;
-  height: 90vh;
-  width: 600px;
+  width: 40vw;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border: 1px solid purple;
 }
 
 .scroll--cup__img {
@@ -71,9 +117,29 @@ html {
 
 .scroll--cup__img.active {
   display: block;
-  height: 40vh;
+  width: 100%;
 }
 
+.scroll--cup__title {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid red;
+  height: 60px;
+}
+
+.scroll--cup__title--inner {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  border: 1px solid red;
+}
+
+/*
+* SVG Modal
+*/
 .hp--framer--svg {
   z-index: 10;
   height: 100vh;
