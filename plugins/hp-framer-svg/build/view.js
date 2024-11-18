@@ -15971,7 +15971,9 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
-  let titleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 0.3], [0, 0, 200]);
+  let reversedCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [-windowHeight, 0]);
+  let titleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 200]);
+  let subtitleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 280]);
   let headingScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0.6, 0.9], [200, 0]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
@@ -16031,7 +16033,7 @@ const LandingPage = () => {
               className: "scroll--cup__text subtitle",
               children: ["ceramics", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
                 style: {
-                  y: titleScroll
+                  y: subtitleScroll
                 },
                 className: "scroll--cup__span",
                 children: "ceramics"
@@ -16053,6 +16055,9 @@ const LandingPage = () => {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "scroll--cup__content--container",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h2, {
+            style: {
+              y: reversedCupScroll
+            },
             className: "scroll--cup__text heading",
             children: ["Handmade in North East England.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
               style: {
@@ -16065,19 +16070,25 @@ const LandingPage = () => {
             className: "scroll--cup__subheading--container",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h3, {
               style: {
-                y: headingScroll
+                y: reversedCupScroll
               },
               className: "scroll--cup__text subheading",
               children: ["100% Sustainable", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
+                style: {
+                  y: headingScroll
+                },
                 className: "scroll--cup__span reversed",
                 children: "100% Sustainable"
               })]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h3, {
               style: {
-                y: headingScroll
+                y: reversedCupScroll
               },
               className: "scroll--cup__text subheading",
               children: ["Locally sourced materials", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
+                style: {
+                  y: headingScroll
+                },
                 className: "scroll--cup__span reversed",
                 children: "Locally sourced materials"
               })]

@@ -25,7 +25,9 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
-  let titleScroll = useTransform(scrollYProgressTarget, [0, 0.1, 0.3], [0, 0, 200]);
+  let reversedCupScroll = useTransform(scrollYProgressTarget, [0, 1], [-windowHeight, 0]);
+  let titleScroll = useTransform(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 200]);
+  let subtitleScroll = useTransform(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 280]);
   let headingScroll = useTransform(scrollYProgressTarget, [0.6, 0.9], [200, 0]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
@@ -66,7 +68,7 @@ const LandingPage = () => {
             <div className="scroll--cup__middle--text">
               <motion.h3 style={{ y: scrollCupScroll }} className="scroll--cup__text subtitle">
                 ceramics
-                <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
+                <motion.span style={{ y: subtitleScroll }} className="scroll--cup__span">
                   ceramics
                 </motion.span>
               </motion.h3>
@@ -84,20 +86,22 @@ const LandingPage = () => {
         </div>
         <div className="scroll--cup__product--section">
           <div className="scroll--cup__content--container">
-            <motion.h2 className="scroll--cup__text heading">
+            <motion.h2 style={{ y: reversedCupScroll }} className="scroll--cup__text heading">
               Handmade in North East England.
               <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
                 Handmade in North East England.
               </motion.span>
             </motion.h2>
             <div className="scroll--cup__subheading--container">
-              <motion.h3 style={{ y: headingScroll }} className="scroll--cup__text subheading">
+              <motion.h3 style={{ y: reversedCupScroll }} className="scroll--cup__text subheading">
                 100% Sustainable
-                <motion.span className="scroll--cup__span reversed">100% Sustainable</motion.span>
+                <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
+                  100% Sustainable
+                </motion.span>
               </motion.h3>
-              <motion.h3 style={{ y: headingScroll }} className="scroll--cup__text subheading">
+              <motion.h3 style={{ y: reversedCupScroll }} className="scroll--cup__text subheading">
                 Locally sourced materials
-                <motion.span className="scroll--cup__span reversed">
+                <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
                   Locally sourced materials
                 </motion.span>
               </motion.h3>

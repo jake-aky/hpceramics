@@ -45,12 +45,10 @@ html {
 */
 .viewport__placeholder--100vh {
   height: 100vh;
-  border: 1px solid blue;
 }
 
 .scroll--cup__product--section {
   height: 100vh;
-  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -138,9 +136,6 @@ html {
   left: 0;
   color: black;
   text-wrap: nowrap;
-}
-.scroll--cup__span.reversed {
-  color: white;
 }
 
 /*

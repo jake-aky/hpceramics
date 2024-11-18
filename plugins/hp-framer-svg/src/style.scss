@@ -41,12 +41,11 @@ html{
 */
 .viewport__placeholder--100vh{
 	height: 100vh;
-	border: 1px solid blue;
 }
 
 .scroll--cup__product--section{
 	height: 100vh;
-	background-color: black;
+	// background-color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -130,9 +129,9 @@ html{
 	right: 0;
 	color: black;
 	text-wrap: nowrap;
-	&.reversed{
-		color: white;
-	}
+	// &.reversed{
+	// 	color: white;
+	// }
 }
 /*
 * SLIDE AWAY TEXT POSITIONING
