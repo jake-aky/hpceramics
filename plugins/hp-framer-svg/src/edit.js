@@ -29,8 +29,11 @@ export default function Edit({ attributes, setAttributes }) {
   const blockProps = useBlockProps();
 
   return (
-    <p {...blockProps}>
-      {__('This is the SVG Animation, it does not display within the editor. :)', 'hp-framer-svg')}
+    <p {...blockProps} style={{ textAlign: 'center', border: '1px solid black' }}>
+      {__(
+        'This is the spinning cup with text block. It wont show up here, but will show up on the customers view :)',
+        'hp-framer-svg',
+      )}
     </p>
   );
 }

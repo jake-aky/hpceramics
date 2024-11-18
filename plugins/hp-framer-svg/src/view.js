@@ -52,12 +52,14 @@ const LandingPage = () => {
           {/* MIDDLE TEXT */}
           <div className="scroll--cup__text--container middle">
             <div className="scroll--cup__middle--text title">
+              {/*text container*/}
               <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
                 helen
                 <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
                   helen
                 </motion.span>
               </motion.h1>
+              {/*text container*/}
               <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
                 pickard
                 <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
@@ -66,6 +68,7 @@ const LandingPage = () => {
               </motion.h1>
             </div>
             <div className="scroll--cup__middle--text">
+              {/*text container*/}
               <motion.h3 style={{ y: scrollCupScroll }} className="scroll--cup__text subtitle">
                 ceramics
                 <motion.span style={{ y: subtitleScroll }} className="scroll--cup__span">
@@ -86,6 +89,7 @@ const LandingPage = () => {
         </div>
         <div className="scroll--cup__product--section">
           <div className="scroll--cup__content--container">
+            {/*text container*/}
             <motion.h2 style={{ y: reversedCupScroll }} className="scroll--cup__text heading">
               Handmade in North East England.
               <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
@@ -93,12 +97,14 @@ const LandingPage = () => {
               </motion.span>
             </motion.h2>
             <div className="scroll--cup__subheading--container">
+              {/*text container*/}
               <motion.h3 style={{ y: reversedCupScroll }} className="scroll--cup__text subheading">
                 100% Sustainable
                 <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
                   100% Sustainable
                 </motion.span>
               </motion.h3>
+              {/*text container*/}
               <motion.h3 style={{ y: reversedCupScroll }} className="scroll--cup__text subheading">
                 Locally sourced materials
                 <motion.span style={{ y: headingScroll }} className="scroll--cup__span reversed">
@@ -109,7 +115,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="viewport__placeholder--100vh"></div>
     </>
   );
 };
@@ -153,8 +158,8 @@ const LandingPageModal = () => {
 const App = () => {
   return (
     <>
-      <LandingPage />
       <LandingPageModal />
+      <LandingPage />
     </>
   );
 };

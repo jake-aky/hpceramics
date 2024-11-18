@@ -53,7 +53,11 @@ function Edit({
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
     ...blockProps,
-    children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('This is the SVG Animation, it does not display within the editor. :)', 'hp-framer-svg')
+    style: {
+      textAlign: 'center',
+      border: '1px solid black'
+    },
+    children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)('This is the spinning cup with text block. It wont show up here, but will show up on the customers view :)', 'hp-framer-svg')
   });
 }
 
