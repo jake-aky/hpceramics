@@ -34,296 +34,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./src/cup-images/cup1.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup1.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup1.1dbcb357.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup10.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup10.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup10.88b22549.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup11.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup11.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup11.bec24504.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup12.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup12.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup12.a38ae650.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup13.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup13.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup13.8d818dac.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup14.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup14.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup14.928097b5.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup15.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup15.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup15.14bc3213.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup16.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup16.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup16.d8b73967.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup17.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup17.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup17.6aa4e1cc.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup18.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup18.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup18.62ff6cb3.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup19.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup19.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup19.e959b390.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup2.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup2.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup2.dd1de366.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup20.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup20.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup20.45d75c31.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup21.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup21.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup21.cbbc8d3b.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup22.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup22.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup22.c9e03f25.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup23.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup23.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup23.6264a9fa.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup24.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup24.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup24.d68612ae.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup25.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup25.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup25.a1a7e899.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup26.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup26.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup26.b042b90b.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup27.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup27.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup27.8cf3848b.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup28.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup28.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup28.4173647e.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup29.png":
-/*!**********************************!*\
-  !*** ./src/cup-images/cup29.png ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup29.e201cd97.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup3.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup3.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup3.1bea72a9.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup4.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup4.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup4.18decf2c.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup5.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup5.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup5.341fbaee.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup6.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup6.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup6.416f8bb7.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup7.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup7.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup7.7f55d491.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup8.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup8.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup8.d00b92a4.png";
-
-/***/ }),
-
-/***/ "./src/cup-images/cup9.png":
-/*!*********************************!*\
-  !*** ./src/cup-images/cup9.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/cup9.55fc6081.png";
-
-/***/ }),
-
 /***/ "react":
 /*!************************!*\
   !*** external "React" ***!
@@ -16197,18 +15907,6 @@ function resolveMotionValue(value) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -16225,29 +15923,6 @@ function resolveMotionValue(value) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
@@ -16260,71 +15935,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/value/use-scroll.mjs");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/value/use-transform.mjs");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/utils/use-motion-value-event.mjs");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/value/use-scroll.mjs");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/value/use-transform.mjs");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/utils/use-motion-value-event.mjs");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs");
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
-/* harmony import */ var _cup_images_cup1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cup-images/cup1.png */ "./src/cup-images/cup1.png");
-/* harmony import */ var _cup_images_cup2_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./cup-images/cup2.png */ "./src/cup-images/cup2.png");
-/* harmony import */ var _cup_images_cup3_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./cup-images/cup3.png */ "./src/cup-images/cup3.png");
-/* harmony import */ var _cup_images_cup4_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./cup-images/cup4.png */ "./src/cup-images/cup4.png");
-/* harmony import */ var _cup_images_cup5_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./cup-images/cup5.png */ "./src/cup-images/cup5.png");
-/* harmony import */ var _cup_images_cup6_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./cup-images/cup6.png */ "./src/cup-images/cup6.png");
-/* harmony import */ var _cup_images_cup7_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./cup-images/cup7.png */ "./src/cup-images/cup7.png");
-/* harmony import */ var _cup_images_cup8_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./cup-images/cup8.png */ "./src/cup-images/cup8.png");
-/* harmony import */ var _cup_images_cup9_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./cup-images/cup9.png */ "./src/cup-images/cup9.png");
-/* harmony import */ var _cup_images_cup10_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./cup-images/cup10.png */ "./src/cup-images/cup10.png");
-/* harmony import */ var _cup_images_cup11_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./cup-images/cup11.png */ "./src/cup-images/cup11.png");
-/* harmony import */ var _cup_images_cup12_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./cup-images/cup12.png */ "./src/cup-images/cup12.png");
-/* harmony import */ var _cup_images_cup13_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./cup-images/cup13.png */ "./src/cup-images/cup13.png");
-/* harmony import */ var _cup_images_cup14_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./cup-images/cup14.png */ "./src/cup-images/cup14.png");
-/* harmony import */ var _cup_images_cup15_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./cup-images/cup15.png */ "./src/cup-images/cup15.png");
-/* harmony import */ var _cup_images_cup16_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./cup-images/cup16.png */ "./src/cup-images/cup16.png");
-/* harmony import */ var _cup_images_cup17_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./cup-images/cup17.png */ "./src/cup-images/cup17.png");
-/* harmony import */ var _cup_images_cup18_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./cup-images/cup18.png */ "./src/cup-images/cup18.png");
-/* harmony import */ var _cup_images_cup19_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./cup-images/cup19.png */ "./src/cup-images/cup19.png");
-/* harmony import */ var _cup_images_cup20_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./cup-images/cup20.png */ "./src/cup-images/cup20.png");
-/* harmony import */ var _cup_images_cup21_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./cup-images/cup21.png */ "./src/cup-images/cup21.png");
-/* harmony import */ var _cup_images_cup22_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./cup-images/cup22.png */ "./src/cup-images/cup22.png");
-/* harmony import */ var _cup_images_cup23_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./cup-images/cup23.png */ "./src/cup-images/cup23.png");
-/* harmony import */ var _cup_images_cup24_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./cup-images/cup24.png */ "./src/cup-images/cup24.png");
-/* harmony import */ var _cup_images_cup25_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./cup-images/cup25.png */ "./src/cup-images/cup25.png");
-/* harmony import */ var _cup_images_cup26_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./cup-images/cup26.png */ "./src/cup-images/cup26.png");
-/* harmony import */ var _cup_images_cup27_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./cup-images/cup27.png */ "./src/cup-images/cup27.png");
-/* harmony import */ var _cup_images_cup28_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./cup-images/cup28.png */ "./src/cup-images/cup28.png");
-/* harmony import */ var _cup_images_cup29_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./cup-images/cup29.png */ "./src/cup-images/cup29.png");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -16338,81 +15955,77 @@ let root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(domNode)
 
 // LandingPage
 const LandingPage = () => {
+  // Set the current image to the index
+  const [currentImage, setCurrentImage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
+  // Ref to container
   const paperContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+
+  // Initiate scroll progress
   const {
     scrollYProgress: scrollYProgressTarget
-  } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_33__.useScroll)({
+  } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__.useScroll)({
     target: paperContainer,
     offset: ['start start', 'end end']
   });
-  const [currentImage, setCurrentImage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(1);
-  const handleCurrentImage = i => {
-    // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-    const currentFrame = i * (1 / 29);
-    if (currentFrame <= 0) {
-      setCurrentImage(1);
-    } else if (currentFrame >= 1) {
-      setCurrentImage(29);
-    } else {
-      setCurrentImage(i);
-    }
-  };
+  // get viewport height
   const windowHeight = window.innerHeight;
+  // Move image linear to scroll (1 viewport height)
+  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
 
-  // Paper Scroll Animation Values
-  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_34__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
+  // Calculate frame slots (when each image should show between scroll Y Progression)
+  const frameSlots = [];
+  for (let i = 0; i <= 28; i++) {
+    const frameSlot = i * (1 / 28);
+    frameSlots.push(frameSlot);
+  }
+  const x = (0,framer_motion__WEBPACK_IMPORTED_MODULE_6__.useMotionValueEvent)(scrollYProgressTarget, 'change', latest => {
+    frameSlots.map((frame, index) => {
+      if (frame <= latest) {
+        setCurrentImage(index);
+      }
+    });
+  });
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       ref: paperContainer,
       className: "paper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_35__.motion.div, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
         className: "paper__img--container",
         style: {
           y: paperScroll
         },
-        children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(CupImage, {
+        children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(CupImage, {
           i: i,
-          scrollYProgressTarget: scrollYProgressTarget,
-          handleCurrentImage: handleCurrentImage,
           currentImage: currentImage
         }))
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "viewport__placeholder--100vh"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "viewport__placeholder--100vh"
     })]
   });
 };
 const CupImage = ({
   i,
-  scrollYProgressTarget,
-  handleCurrentImage,
   currentImage
 }) => {
-  // index * (halfTheTimePeriodOfScroll/numberOfImages) + halfTheTimePeriodOfScroll  - This is because scroll progress is being calculated by 0.5 to 1 not 0 to 1
-  const frameSlot = i * (1 / 29);
-  const x = (0,framer_motion__WEBPACK_IMPORTED_MODULE_36__.useMotionValueEvent)(scrollYProgressTarget, 'change', latest => {
-    if (frameSlot <= latest) {
-      handleCurrentImage(i);
-    }
-  });
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("img", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
     className: `paper__img ${currentImage === i ? 'active' : ''}`,
     src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
   });
 };
 const LandingPageModal = () => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
     className: "hp--framer--svg",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "hp--framer--svg__svg--container",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_35__.motion.svg, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.svg, {
         className: "hp--framer--svg__svg",
         id: "Layer_1",
         xmlns: "http://www.w3.org/2000/svg",
         viewBox: "0 0 86.88 90.12",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_35__.motion.path, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.path, {
           initial: {
             pathLength: 0
           },
@@ -16435,12 +16048,12 @@ const LandingPageModal = () => {
           d: "M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "hp--framer--svg__text--container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("h1", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
         className: "hp--framer--svg__title",
         children: "helen pickard"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)("h3", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
         className: "hp--framer--svg__subtitle",
         children: "ceramics"
       })]
@@ -16448,13 +16061,13 @@ const LandingPageModal = () => {
   });
 };
 const App = () => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(LandingPage, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(LandingPageModal, {})]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(LandingPage, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(LandingPageModal, {})]
   });
 };
 
 // Only render if DOM
-root.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_32__.jsx)(App, {}));
+root.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(App, {}));
 })();
 
 /******/ })()
