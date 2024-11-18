@@ -1,6 +1,10 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://use.typekit.net/tli5fla.css);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
 /**
  * The following styles get applied both on the front of your site
  * and in the editor.
@@ -33,6 +37,7 @@ html {
   background-color: transparent;
   margin: 0;
   padding: 0;
+  font-family: "legitima", serif;
 }
 
 .viewport__placeholder--100vh {
@@ -40,7 +45,7 @@ html {
   border: 1px solid blue;
 }
 
-.paper {
+.scroll--cup {
   height: 200vh;
   width: 100%;
   display: flex;
@@ -49,7 +54,7 @@ html {
   border: 1px solid red;
 }
 
-.paper__img--container {
+.scroll--cup__img--container {
   z-index: 2;
   height: 90vh;
   width: 600px;
@@ -60,11 +65,11 @@ html {
   border: 1px solid purple;
 }
 
-.paper__img {
+.scroll--cup__img {
   display: none;
 }
 
-.paper__img.active {
+.scroll--cup__img.active {
   display: block;
   height: 40vh;
 }

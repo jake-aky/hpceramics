@@ -14,17 +14,17 @@ const LandingPage = () => {
   // Set the current image to the index
   const [currentImage, setCurrentImage] = useState(0);
   // Ref to container
-  const paperContainer = useRef(null);
+  const scrollCupContainer = useRef(null);
 
   // Initiate scroll progress
   const { scrollYProgress: scrollYProgressTarget } = useScroll({
-    target: paperContainer,
+    target: scrollCupContainer,
     offset: ['start start', 'end end'],
   });
   // get viewport height
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
-  let paperScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
+  let scrollCupScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -43,8 +43,10 @@ const LandingPage = () => {
 
   return (
     <>
-      <div ref={paperContainer} className="paper">
-        <motion.div className="paper__img--container" style={{ y: paperScroll }}>
+      <div ref={scrollCupContainer} className="scroll--cup">
+        <h1>helen pickard</h1>
+        <h1>ceramics</h1>
+        <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
           {[...Array(29)].map((e, i) => (
             <CupImage i={i} currentImage={currentImage} />
           ))}
@@ -59,7 +61,7 @@ const LandingPage = () => {
 const CupImage = ({ i, currentImage }) => {
   return (
     <img
-      className={`paper__img ${currentImage === i ? 'active' : ''}`}
+      className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
       src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
     />
   );

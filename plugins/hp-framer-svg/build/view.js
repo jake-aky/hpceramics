@@ -15958,19 +15958,19 @@ const LandingPage = () => {
   // Set the current image to the index
   const [currentImage, setCurrentImage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
   // Ref to container
-  const paperContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const scrollCupContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
 
   // Initiate scroll progress
   const {
     scrollYProgress: scrollYProgressTarget
   } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__.useScroll)({
-    target: paperContainer,
+    target: scrollCupContainer,
     offset: ['start start', 'end end']
   });
   // get viewport height
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
-  let paperScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
+  let scrollCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -15986,19 +15986,23 @@ const LandingPage = () => {
     });
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      ref: paperContainer,
-      className: "paper",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
-        className: "paper__img--container",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      ref: scrollCupContainer,
+      className: "scroll--cup",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+        children: "helen pickard"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+        children: "ceramics"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
+        className: "scroll--cup__img--container",
         style: {
-          y: paperScroll
+          y: scrollCupScroll
         },
         children: [...Array(29)].map((e, i) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(CupImage, {
           i: i,
           currentImage: currentImage
         }))
-      })
+      })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
       className: "viewport__placeholder--100vh"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -16011,7 +16015,7 @@ const CupImage = ({
   currentImage
 }) => {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-    className: `paper__img ${currentImage === i ? 'active' : ''}`,
+    className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
     src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
   });
 };
