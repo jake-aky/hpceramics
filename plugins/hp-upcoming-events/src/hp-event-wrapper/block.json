@@ -6,7 +6,7 @@
 	"title": "HP Event Wrapper",
 	"category": "jake-aky-plugins",
 	"icon": "table-row-before",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "This block contains the upcoming events.",
 	"example": {},
 	"supports": {
 		"html": false

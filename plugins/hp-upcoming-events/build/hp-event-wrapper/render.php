@@ -6,3 +6,6 @@
 <p <?php echo get_block_wrapper_attributes(); ?>>
 	<?php esc_html_e( 'Hp Upcoming Events – hello from a dynamic block!', 'hp-upcoming-events' ); ?>
 </p>
+<div>
+	<?php echo $content; ?>
+</div>

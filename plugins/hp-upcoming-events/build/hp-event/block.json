@@ -6,7 +6,7 @@
   "title": "HP Event",
   "category": "jake-aky-plugins",
   "icon": "sticky",
-  "description": "Example block scaffolded with Create Block tool.",
+  "description": "This is an event block. It displays title, date, featured-image and address.",
   "example": {},
   "supports": {
     "html": false
