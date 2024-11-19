@@ -8,4 +8,15 @@ add_action('wp_enqueue_scripts', 'portfolio_enqueue_styles');
 /* Disable WordPress Admin Bar for all users */
 add_filter( 'show_admin_bar', '__return_false' );
 
+/* Create custom category for plugins */
 
+add_filter( 'block_categories_all' , function( $categories ) {
+
+    // Adding a new category.
+	$categories[] = array(
+		'slug'  => 'jake-aky-plugins',
+		'title' => 'jake-aky Plugins'
+	);
+
+	return $categories;
+} );
