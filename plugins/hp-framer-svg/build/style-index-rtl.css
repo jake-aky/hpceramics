@@ -1,10 +1,6 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
-@import url(https://use.typekit.net/tli5fla.css);
-/*!*******************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss (1) ***!
-  \*******************************************************************************************************************************************************************************************************************************************/
 /**
  * The following styles get applied both on the front of your site
  * and in the editor.
@@ -34,11 +30,9 @@ html {
 }
 
 #hp-framer-svg {
-  background-color: transparent;
   margin: 0;
   padding: 0;
-  font-family: "legitima", serif;
-  background-color: #777;
+  background: #fff;
 }
 
 /*
@@ -49,6 +43,7 @@ html {
 }
 
 .scroll--cup__product--section {
+  background: #e8e8e8;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -124,7 +119,7 @@ html {
 }
 
 .scroll--cup__subheading--container {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }

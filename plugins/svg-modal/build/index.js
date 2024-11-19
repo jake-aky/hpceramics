@@ -180,7 +180,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"svg-modal/svg-modal","version":"0.1.0","title":"SVG Modal","category":"media","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"svg-modal","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"load-modal-script"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"svg-modal/svg-modal","version":"0.1.0","title":"SVG Modal","category":"media","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"svg-modal","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ })
 

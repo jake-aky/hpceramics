@@ -95,9 +95,9 @@
 					"name": "Vertical hard mint to white"
 				},
 				{
-					"slug": "gradient-12",
-					"gradient": "linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%)",
-					"name": "Vertical hard pewter to white"
+					"slug": "hp-grey",
+					"gradient": "linear-gradient(45deg, rgba(81,81,79,1) 0%, rgba(108,102,93,1) 25%, rgba(130,129,122,1) 52%, rgba(155,154,150,1) 73%, rgba(179,179,172,1) 100%)",
+					"name": "Grey 45' dark to light"
 				}
 			],
 			"palette": [
@@ -127,35 +127,35 @@
 					"slug": "contrast-3"
 				},
 				{
-					"color": "#cfcabe",
-					"name": "Accent",
-					"slug": "accent"
+					"color": "#0F0E0C",
+					"name": "HP Dark Blue",
+					"slug": "hp-dark-blue"
 				},
 				{
-					"color": "#c2a990",
-					"name": "Accent / Two",
-					"slug": "accent-2"
+					"color": "#7B92B4",
+					"name": "HP Light Blue",
+					"slug": "hp-light-blue"
 				},
 				{
-					"color": "#d8613c",
-					"name": "Accent / Three",
-					"slug": "accent-3"
+					"color": "#5F74A5",
+					"name": "HP Medium Blue",
+					"slug": "hp-medium-blue"
 				},
 				{
-					"color": "#b1c5a4",
-					"name": "Accent / Four",
-					"slug": "accent-4"
+					"color": "#DAD9BE",
+					"name": "HP Sand",
+					"slug": "hp-sand"
 				},
 				{
-					"color": "#b5bdbc",
-					"name": "Accent / Five",
-					"slug": "accent-5"
+					"color": "#815722",
+					"name": "HP Gold",
+					"slug": "hp-gold"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "1280px",
-			"wideSize": "1450px"
+			"contentSize": "1200px",
+			"wideSize": "1400px"
 		},
 		"spacing": {
 			"spacingScale": {

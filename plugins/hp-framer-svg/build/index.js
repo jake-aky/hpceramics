@@ -184,7 +184,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"hp-framer-svg/hp-framer-svg","version":"0.1.0","title":"HP Framer SVG","category":"embed","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"hp-framer-svg","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"framer-view-script"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"hp-framer-svg/hp-framer-svg","version":"0.1.0","title":"HP Framer SVG","category":"embed","icon":"media-interactive","description":"An interactive block with the Interactivity API.","example":{},"supports":{"interactivity":true},"textdomain":"hp-framer-svg","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ })
 
