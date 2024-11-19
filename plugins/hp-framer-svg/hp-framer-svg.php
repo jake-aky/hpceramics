@@ -24,3 +24,8 @@ function hp_framer_svg_hp_framer_svg_block_init() {
 	register_block_type_from_metadata( __DIR__ . '/build' );
 }
 add_action( 'init', 'hp_framer_svg_hp_framer_svg_block_init' );
+
+add_action( 'init', 'framer_enqueue', 0 );
+function framer_enqueue() {
+    wp_enqueue_script( 'framer-view-script', plugins_url( '', 'svg-modal' ) . '/hp-framer-svg/build/view.js', ['load-modal-script', 'wp-element'] );
+}

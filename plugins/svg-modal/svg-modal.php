@@ -28,3 +28,8 @@ function svg_modal_svg_modal_block_init() {
 	register_block_type_from_metadata( __DIR__ . '/build' );
 }
 add_action( 'init', 'svg_modal_svg_modal_block_init' );
+
+add_action( 'init', 'modal_enqueue', 0 );
+function modal_enqueue() {
+    wp_enqueue_script( 'load-modal-script', plugins_url( '', 'svg-modal' ) . '/svg-modal/build/view.js');
+}

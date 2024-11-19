@@ -7,3 +7,5 @@ add_action('wp_enqueue_scripts', 'portfolio_enqueue_styles');
 
 /* Disable WordPress Admin Bar for all users */
 add_filter( 'show_admin_bar', '__return_false' );
+
+

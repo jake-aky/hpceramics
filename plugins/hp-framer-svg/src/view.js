@@ -5,7 +5,6 @@ import { useState, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Check if DOM Element is created
-
 let domNode = document.getElementById('hp-framer-svg');
 let root = createRoot(domNode);
 
@@ -54,16 +53,16 @@ const LandingPage = () => {
             <div className="scroll--cup__middle--text title">
               {/*text container*/}
               <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
-                helen
+                Helen
                 <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
-                  helen
+                  Helen
                 </motion.span>
               </motion.h1>
               {/*text container*/}
               <motion.h1 style={{ y: scrollCupScroll }} className="scroll--cup__text title">
-                pickard
+                Pickard
                 <motion.span style={{ y: titleScroll }} className="scroll--cup__span">
-                  pickard
+                  Pickard
                 </motion.span>
               </motion.h1>
             </div>
@@ -158,11 +157,13 @@ const LandingPageModal = () => {
 const App = () => {
   return (
     <>
-      <LandingPageModal />
+      {/* <LandingPageModal /> */}
       <LandingPage />
     </>
   );
 };
 
+console.log('framer-loaded');
 // Only render if DOM
+
 root.render(<App />);
