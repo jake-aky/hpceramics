@@ -1,3 +1,19 @@
+/*
+* Global & Variables
+*/
+
+:root{
+  --clr-beige:#F8F6F1;
+  /*
+  blue
+  #47587A
+  purple
+  #444375
+  */
+}
+
+/******************/
+
 /**
 Lenis
 */
@@ -23,6 +39,55 @@ html.lenis {
 * Navbar
 */
 
-.hp--navbar{
+.hp--navbar__scroll--watcher{
   margin: 0;
+}
+
+.hp--navbar{
+  z-index: 10;
+  transition: all 0.2s ease-out;
+  margin: 0;
+
+  position: sticky;
+  top: 0;
+
+  border-bottom: 0px solid transparent;
+}
+
+.hp--navbar.sticking{
+  border-bottom: 2px solid #5F74A5;
+  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.30);
+
+}
+
+
+.hp--navbar .wp-block-site-logo img{
+  transition: all 0.1s ease-out;
+}
+.hp--navbar .wp-block-site-logo img{
+  height: 38px;
+}
+.hp--navbar.sticking .wp-block-site-logo img{
+  height: 0px;
+  opacity: 0;
+}
+
+.hp--navbar__border{
+  position: absolute;
+  bottom: 0;
+
+  height: 5px;
+  width: 100vw;
+  background-color: blueviolet;
+}
+
+
+/******************/
+
+/*
+* Footer
+*/
+
+.hp--footer{
+  margin-top: 0;
 }

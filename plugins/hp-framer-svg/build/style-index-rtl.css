@@ -9,6 +9,7 @@
  */
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 .wp-block-hp-framer-svg-hp-framer-svg {
@@ -35,196 +36,58 @@ html {
   background: #fff;
 }
 
-/*
-*	VIEWPORT HOLDERS FOR CUP SCROLL ANIMATION
-*/
-.viewport__placeholder--100vh {
-  height: 100vh;
-}
-
-.scroll--cup__product--section {
-  background: #e8e8e8;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*
-* CUP SCROLL WRAPPER
-*/
 .scroll--cup {
   height: 200vh;
   width: 100%;
+  background-color: #F8F6F1;
 }
 
-/*
-* SECTION WRAPPER
-*/
-.scroll--cup__landing--section {
+.scroll--cup__container {
+  margin-right: auto;
+  margin-left: auto;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-/*
-* SLIDE AWAY TEXT CONTAINERS
-*/
-.scroll--cup__text--container {
-  height: -moz-fit-content;
-  height: fit-content;
   width: 100%;
+  max-width: 2000px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
-.scroll--cup__text--container.middle {
-  gap: 4rem;
-}
 
-.scroll--cup__content--container {
+/* Text */
+.scroll--cup__item {
+  width: 50%;
   height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 60vh;
-}
-
-.scroll--cup__text {
-  margin: 0;
-  color: transparent;
   position: relative;
-  overflow: hidden;
-  text-wrap: nowrap;
-}
-.scroll--cup__text.title {
-  font-size: clamp(100px, 10vw, 275px);
-}
-.scroll--cup__text.subtitle {
-  font-size: clamp(150px, 15vw, 325px);
-  font-style: italic;
-}
-.scroll--cup__text.heading {
-  font-size: clamp(80px, 7vw, 200px);
-}
-.scroll--cup__text.subheading {
-  font-size: clamp(40px, 5vw, 80px);
 }
 
-.scroll--cup__subheading--container {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.scroll--cup__span {
+/* Cup */
+.scroll--cup__img--container {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  color: black;
-  text-wrap: nowrap;
-}
-
-/*
-* SLIDE AWAY TEXT POSITIONING
-*/
-.scroll--cup__middle--text {
-  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3;
-}
-.scroll--cup__middle--text.title {
-  justify-content: space-between;
-}
-
-/*
-* CUP IMAGE
-*/
-.scroll--cup__img--container {
-  z-index: 2;
-  height: 55vh;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: absolute;
 }
 
 .scroll--cup__img {
+  width: calc(100% - 4rem);
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: none;
 }
 
 .scroll--cup__img.active {
   display: block;
-  width: 100%;
+  width: calc(100% - 4rem);
   height: 100%;
 }
 
-/************************************/
-/*
-* SVG Modal
-*/
-.hp--framer--svg {
-  z-index: 10;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid blue;
-  animation: forwards 0.25s hideModal ease-out;
-  animation-delay: 2.5s;
-  background-color: #fff;
-}
-
-.hp--framer--svg__svg {
-  width: 75px;
-}
-
-.hp--framer--svg__title {
-  margin: 0;
-  text-align: center;
-  animation: forwards displayText 0.5s ease-out;
-  animation-delay: 2s;
-  opacity: 0;
-}
-
-.hp--framer--svg__subtitle {
-  margin: 0;
-  text-align: center;
-  animation: forwards displayText 0.5s ease-out;
-  animation-delay: 2s;
-  opacity: 0;
-}
-
-@keyframes displayText {
-  0% {
-    opacity: 0;
+@media screen and (max-width: 1000px) {
+  .scroll--cup__container {
+    flex-direction: column;
   }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes hideModal {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display: none;
+  .scroll--cup__item {
+    width: 100%;
   }
 }

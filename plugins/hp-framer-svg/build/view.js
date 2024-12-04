@@ -15971,10 +15971,6 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
-  let reversedCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [-windowHeight, 0]);
-  let titleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 200]);
-  let subtitleScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 0.1, 0.5], [0, 0, 280]);
-  let headingScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0.6, 0.9], [200, 0]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -15989,58 +15985,24 @@ const LandingPage = () => {
       }
     });
   });
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+  {
+    /* <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
+    {[...Array(29)].map((e, i) => (
+    <img
+      className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
+      src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
+    />
+    ))}
+    </motion.div>; */
+  }
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+    className: "scroll--cup",
+    ref: scrollCupContainer,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      ref: scrollCupContainer,
-      className: "scroll--cup",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "scroll--cup__landing--section",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-          className: "scroll--cup__text--container middle",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "scroll--cup__middle--text title",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h1, {
-              style: {
-                y: scrollCupScroll
-              },
-              className: "scroll--cup__text title",
-              children: ["Helen", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-                style: {
-                  y: titleScroll
-                },
-                className: "scroll--cup__span",
-                children: "Helen"
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h1, {
-              style: {
-                y: scrollCupScroll
-              },
-              className: "scroll--cup__text title",
-              children: ["Pickard", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-                style: {
-                  y: titleScroll
-                },
-                className: "scroll--cup__span",
-                children: "Pickard"
-              })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            className: "scroll--cup__middle--text",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h3, {
-              style: {
-                y: scrollCupScroll
-              },
-              className: "scroll--cup__text subtitle",
-              children: ["ceramics", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-                style: {
-                  y: subtitleScroll
-                },
-                className: "scroll--cup__span",
-                children: "ceramics"
-              })]
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
+      className: "scroll--cup__container",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "scroll--cup__item",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
           className: "scroll--cup__img--container",
           style: {
             y: scrollCupScroll
@@ -16049,99 +16011,12 @@ const LandingPage = () => {
             className: `scroll--cup__img ${currentImage === i ? 'active' : ''}`,
             src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
           }))
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "scroll--cup__product--section",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-          className: "scroll--cup__content--container",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h2, {
-            style: {
-              y: reversedCupScroll
-            },
-            className: "scroll--cup__text heading",
-            children: ["Handmade in North East England.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-              style: {
-                y: headingScroll
-              },
-              className: "scroll--cup__span reversed",
-              children: "Handmade in North East England."
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "scroll--cup__subheading--container",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h3, {
-              style: {
-                y: reversedCupScroll
-              },
-              className: "scroll--cup__text subheading",
-              children: ["100% Sustainable", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-                style: {
-                  y: headingScroll
-                },
-                className: "scroll--cup__span reversed",
-                children: "100% Sustainable"
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.h3, {
-              style: {
-                y: reversedCupScroll
-              },
-              className: "scroll--cup__text subheading",
-              children: ["Locally sourced materials", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.span, {
-                style: {
-                  y: headingScroll
-                },
-                className: "scroll--cup__span reversed",
-                children: "Locally sourced materials"
-              })]
-            })]
-          })]
         })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "scroll--cup__item",
+        children: "h1"
       })]
     })
-  });
-};
-const LandingPageModal = () => {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "hp--framer--svg",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-      className: "hp--framer--svg__svg--container",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.svg, {
-        className: "hp--framer--svg__svg",
-        id: "Layer_1",
-        xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 86.88 90.12",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.path, {
-          initial: {
-            pathLength: 0
-          },
-          animate: {
-            pathLength: 1,
-            strokeLinecap: 'round'
-          },
-          transition: {
-            duration: 1.5,
-            ease: 'easeOut',
-            delay: 0.5
-          },
-          strokeWidth: 4,
-          strokeDasharray: "0 1",
-          stroke: "#000"
-          // strokeLinecap="round"
-          ,
-          strokeMiterlimit: 10,
-          fill: "none",
-          d: "M84.38,72.11c-3.87,8.61-45.56,32.15-74-4C-3.53,50.44-.11,11.39,29.38,4.11c24.05-5.94,49.4,4.64,49.61,29.4.16,18.57-11.04,32.46-29.62,32.62-13.93.12-25.32-11.08-25.44-25.01-.09-10.45,8.31-18.99,18.76-19.08,7.84-.07,14.24,6.23,14.31,14.07.05,5.88-4.67,10.68-10.55,10.73"
-        })
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "hp--framer--svg__text--container",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-        className: "hp--framer--svg__title",
-        children: "helen pickard"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
-        className: "hp--framer--svg__subtitle",
-        children: "ceramics"
-      })]
-    })]
   });
 };
 const App = () => {
