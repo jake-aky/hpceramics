@@ -42,7 +42,6 @@ html.lenis {
 .hp--navbar__scroll--watcher{
   margin: 0;
 }
-
 .hp--navbar{
   z-index: 10;
   transition: all 0.2s ease-out;
@@ -53,14 +52,11 @@ html.lenis {
 
   border-bottom: 0px solid transparent;
 }
-
 .hp--navbar.sticking{
   border-bottom: 2px solid #5F74A5;
   box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.30);
 
 }
-
-
 .hp--navbar .wp-block-site-logo img{
   transition: all 0.05s ease-out;
 }
@@ -72,7 +68,6 @@ html.lenis {
   height: 0px;
   opacity: 0;
 }
-
 .hp--navbar__border{
   position: absolute;
   bottom: 0;
@@ -80,6 +75,42 @@ html.lenis {
   height: 5px;
   width: 100vw;
   background-color: blueviolet;
+}
+
+/* Mobile Menu
+*/
+
+/* Menu overlay */
+.wp-block-navigation__responsive-container{
+  width: clamp(200px, 50%, 600px);
+  box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.30);
+}
+.wp-block-navigation__responsive-container.has-modal-open{
+  animation: forwards 0.5s mobileMenuSlide ease-out;
+}
+@keyframes mobileMenuSlide{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+/* Close button and Close button SVG */
+.wp-block-navigation__responsive-dialog{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wp-block-navigation__responsive-container-close{
+  position: static;
+  & svg{
+    width: 40px;
+    height: 40px;
+  }
 }
 
 
@@ -92,3 +123,25 @@ html.lenis {
 .hp--footer{
   margin-top: 0;
 }
+
+/******************/
+
+/*
+* Media Queries
+*/
+
+/* Tablet */
+@media screen and (max-width: 900px){}
+
+/* Mobile */
+@media screen and (max-width: 550px){
+  /* Mobile Menu
+  */
+  /* Menu overlay */
+  .wp-block-navigation__responsive-container{
+    width: 100%;
+  }
+}
+
+/* XS Mobile */
+@media screen and (max-width: 350px){}
