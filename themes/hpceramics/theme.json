@@ -68,7 +68,8 @@
 		},
 		"spacing": {
 			"units": ["%", "px", "em", "rem", "vh", "vw"],
-			"padding": true
+			"padding": true,
+			"blockGap": null
 		},
 		"typography": {
 			"fontSizes": [
