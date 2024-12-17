@@ -26,6 +26,8 @@ function enqueue_responsive_nav() {
 	wp_enqueue_script('responsiveNav',"/wp-content/themes/hpceramics/scripts/nav.js", '',false, true);
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_responsive_nav');
+
+
 /* Enqueue Navbar Script */
 function enqueue_lenis_smooth_scroll_package() {
 	wp_enqueue_script('lenisSmoothScrollPackage',"https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js", '',false, true);

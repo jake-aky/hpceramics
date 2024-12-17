@@ -15971,6 +15971,7 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight]);
+  let scrollCupScrollTest = (0,framer_motion__WEBPACK_IMPORTED_MODULE_5__.useTransform)(scrollYProgressTarget, [0, 1], [0, windowHeight + 100]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -15985,16 +15986,6 @@ const LandingPage = () => {
       }
     });
   });
-  {
-    /* <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
-    {[...Array(29)].map((e, i) => (
-    <img
-      className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
-      src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
-    />
-    ))}
-    </motion.div>; */
-  }
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
     className: "scroll--cup",
     ref: scrollCupContainer,
@@ -16012,9 +16003,18 @@ const LandingPage = () => {
             src: `/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`
           }))
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "scroll--cup__item",
-        children: "h1"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_7__.motion.div, {
+        style: {
+          y: scrollCupScrollTest
+        },
+        className: "scroll--cup__content",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          children: "Each piece is thoughtfully handcrafted by me in my workshop"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          children: "Each piece is thoughtfully handcrafted by me in"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          children: "Each piece is thoughtfully handcrafted by me in my workshop, nestle"
+        })]
       })]
     })
   });

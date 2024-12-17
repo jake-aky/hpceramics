@@ -24,6 +24,7 @@ const LandingPage = () => {
   const windowHeight = window.innerHeight;
   // Move image linear to scroll (1 viewport height)
   let scrollCupScroll = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight]);
+  let scrollCupScrollTest = useTransform(scrollYProgressTarget, [0, 1], [0, windowHeight + 100]);
 
   // Calculate frame slots (when each image should show between scroll Y Progression)
   const frameSlots = [];
@@ -40,17 +41,6 @@ const LandingPage = () => {
     });
   });
 
-  {
-    /* <motion.div className="scroll--cup__img--container" style={{ y: scrollCupScroll }}>
-  {[...Array(29)].map((e, i) => (
-    <img
-      className={`scroll--cup__img ${currentImage === i ? 'active' : ''}`}
-      src={`/wp-content/plugins/hp-framer-svg/src/cup-images/cup${i}.png`}
-    />
-  ))}
-</motion.div>; */
-  }
-
   return (
     <div className="scroll--cup" ref={scrollCupContainer}>
       <div className="scroll--cup__container">
@@ -64,7 +54,11 @@ const LandingPage = () => {
             ))}
           </motion.div>
         </div>
-        <div className="scroll--cup__item">h1</div>
+        <motion.div style={{ y: scrollCupScrollTest }} className="scroll--cup__content">
+          <h2>Each piece is thoughtfully handcrafted by me in my workshop</h2>
+          <h2>Each piece is thoughtfully handcrafted by me in</h2>
+          <h2>Each piece is thoughtfully handcrafted by me in my workshop, nestle</h2>
+        </motion.div>
       </div>
     </div>
   );

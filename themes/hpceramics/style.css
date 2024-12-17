@@ -76,6 +76,9 @@ html.lenis {
   width: 100vw;
   background-color: blueviolet;
 }
+.hp--navbar__site-logo a{
+  text-decoration: none;
+}
 
 /* Mobile Menu
 */
