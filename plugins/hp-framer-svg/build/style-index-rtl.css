@@ -1,0 +1,93 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.wp-block-hp-framer-svg-hp-framer-svg {
+  font-size: 1em;
+  background: rgba(255, 255, 0, 0.1019607843);
+  padding: 1em;
+}
+.wp-block-hp-framer-svg-hp-framer-svg.dark-theme {
+  background: #333;
+  color: #fff;
+}
+.wp-block-hp-framer-svg-hp-framer-svg.dark-theme button {
+  background: #555;
+  color: #fff;
+  border: 1px solid #777;
+}
+.wp-block-hp-framer-svg-hp-framer-svg.dark-theme p {
+  color: #ddd;
+}
+
+#hp-framer-svg {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.scroll--cup {
+  height: 200vh;
+  width: 100%;
+  background-color: #F8F6F1;
+}
+
+.scroll--cup__container {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100vh;
+  width: 100%;
+  max-width: 2000px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Text */
+.scroll--cup__item {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+/* Cup */
+.scroll--cup__img--container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll--cup__img {
+  width: calc(100% - 4rem);
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: none;
+}
+
+.scroll--cup__img.active {
+  display: block;
+  width: calc(100% - 4rem);
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .scroll--cup__container {
+    flex-direction: column;
+  }
+  .scroll--cup__item {
+    width: 100%;
+  }
+}
